@@ -30,8 +30,7 @@ A Python-based honeypot that simulates multiple network services to capture atta
 ## Installation
 
 ```bash
-# Clone or download the project
-cd CW2
+git clone https://github.com/honney336/HoneyPot.git
 
 # Install dependencies
 pip install -r requirements.txt
@@ -55,7 +54,6 @@ CW2/
 ├── commands.py      # FakeShell command handlers
 ├── export.py        # XML/JSON report export functions
 ├── requirements.txt # Python dependencies
-├── ssh_host_key     # SSH host key (auto-generated)
 └── README.md        # This file
 ```
 
