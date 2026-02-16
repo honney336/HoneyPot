@@ -1,4 +1,4 @@
-# Honey Trap - Multi-Protocol Honeypot
+# Honey POT - Multi-Protocol Honeypot
 
 A Python-based honeypot that simulates multiple network services to capture attacker credentials and monitor intrusion attempts.
 

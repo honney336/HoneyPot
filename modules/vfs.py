@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Virtual Filesystem Module for Honey Trap Honeypot
+Virtual Filesystem Module for Honeypot
 Contains fake filesystem structure and file contents.
 """
 

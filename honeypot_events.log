@@ -1,0 +1,173 @@
+[2026-02-10 14:57:43] [INFO] [Telnet] [0.0.0.0] Listening on port 2233
+[2026-02-10 14:57:43] [INFO] [SSH] [0.0.0.0] Listening on port 2222
+[2026-02-10 14:57:43] [INFO] [System] [localhost] 🍯 Honey Trap initialized - All services started
+[2026-02-10 14:57:43] [INFO] [FTP] [0.0.0.0] Listening on port 2121
+[2026-02-10 14:57:43] [INFO] [SMB] [0.0.0.0] Listening on port 4445
+[2026-02-16 17:50:52] [INFO] [SSH] [0.0.0.0] Listening on port 2222
+[2026-02-16 17:50:52] [INFO] [Telnet] [0.0.0.0] Listening on port 2233
+[2026-02-16 17:50:52] [INFO] [FTP] [0.0.0.0] Listening on port 2121
+[2026-02-16 17:50:52] [INFO] [SMB] [0.0.0.0] Listening on port 4445
+[2026-02-16 17:50:52] [INFO] [System] [localhost] 🍯 Honey Trap initialized - All services started
+[2026-02-16 17:51:18] [INFO] [System] [localhost] 🗑️ Log display cleared
+[2026-02-16 17:51:19] [INFO] [System] [localhost] 🗑️ Log display cleared
+[2026-02-16 17:53:27] [INFO] [SSH] [172.17.0.2] New connection from port 45430
+[2026-02-16 17:53:30] [WARNING] [SSH] [172.17.0.2] Password auth attempt - User: root, Pass: root
+[2026-02-16 17:53:30] [WARNING] [SSH] [172.17.0.2] Login attempt - User: root, Pass: root
+[2026-02-16 17:53:30] [WARNING] [SSH] [172.17.0.2] User 'root' authenticated (FAKE)
+[2026-02-16 17:53:46] [INFO] [SSH] [172.17.0.2] Command: ls
+[2026-02-16 17:53:57] [INFO] [SSH] [172.17.0.2] Command: cat db_creds.txt
+[2026-02-16 17:53:57] [WARNING] [SSH] [172.17.0.2] Accessed sensitive file: /root/db_creds.txt
+[2026-02-16 17:54:06] [INFO] [SSH] [172.17.0.2] Command: ls
+[2026-02-16 17:54:09] [INFO] [SSH] [172.17.0.2] Command: pwd
+[2026-02-16 17:54:21] [INFO] [SSH] [172.17.0.2] Command: ls -al /
+[2026-02-16 17:54:23] [INFO] [SSH] [172.17.0.2] Command: cd /home
+[2026-02-16 17:54:24] [INFO] [SSH] [172.17.0.2] Command: ls
+[2026-02-16 17:54:27] [INFO] [SSH] [172.17.0.2] Command: cd user
+[2026-02-16 17:54:27] [INFO] [SSH] [172.17.0.2] Command: ls
+[2026-02-16 17:54:31] [INFO] [SSH] [172.17.0.2] Command: cat .bashrc
+[2026-02-16 17:54:34] [INFO] [SSH] [172.17.0.2] Command: cat .bashrc
+[2026-02-16 17:54:38] [INFO] [SSH] [172.17.0.2] Command: clear
+[2026-02-16 17:54:39] [INFO] [SSH] [172.17.0.2] Command: ls
+[2026-02-16 17:54:44] [INFO] [SSH] [172.17.0.2] Command: cd ../
+[2026-02-16 17:54:45] [INFO] [SSH] [172.17.0.2] Command: ls
+[2026-02-16 17:54:56] [INFO] [SSH] [172.17.0.2] Command: cd /home/
+[2026-02-16 17:54:57] [INFO] [SSH] [172.17.0.2] Command: ls
+[2026-02-16 17:55:08] [INFO] [SSH] [172.17.0.2] Command: ls -al
+[2026-02-16 17:55:10] [INFO] [SSH] [172.17.0.2] Command: cd /
+[2026-02-16 17:55:11] [INFO] [SSH] [172.17.0.2] Command: ls
+[2026-02-16 17:55:13] [INFO] [SSH] [172.17.0.2] Command: cd /home
+[2026-02-16 17:55:14] [INFO] [SSH] [172.17.0.2] Command: ls
+[2026-02-16 17:55:21] [INFO] [SSH] [172.17.0.2] Command: pwd
+[2026-02-16 17:55:29] [INFO] [SSH] [172.17.0.2] Command: cd /
+[2026-02-16 17:55:30] [INFO] [SSH] [172.17.0.2] Command: exit
+[2026-02-16 17:55:30] [INFO] [SSH] [172.17.0.2] Session closed
+[2026-02-16 17:55:51] [INFO] [SSH] [172.17.0.2] New connection from port 41830
+[2026-02-16 17:55:57] [INFO] [SSH] [172.17.0.2] No channel opened
+[2026-02-16 17:55:57] [INFO] [SSH] [172.17.0.2] Session closed
+[2026-02-16 17:56:02] [INFO] [SSH] [172.17.0.2] New connection from port 49148
+[2026-02-16 17:56:03] [WARNING] [SSH] [172.17.0.2] Password auth attempt - User: bitter, Pass: yes
+[2026-02-16 17:56:03] [WARNING] [SSH] [172.17.0.2] Login attempt - User: bitter, Pass: yes
+[2026-02-16 17:56:03] [WARNING] [SSH] [172.17.0.2] User 'bitter' authenticated (FAKE)
+[2026-02-16 17:56:17] [INFO] [SSH] [172.17.0.2] Command: pwd
+[2026-02-16 17:56:18] [INFO] [SSH] [172.17.0.2] Command: ls
+[2026-02-16 17:56:22] [INFO] [SSH] [172.17.0.2] Command: cat .bashrc
+[2026-02-16 17:56:25] [INFO] [SSH] [172.17.0.2] Command: cat '.bashrc'
+[2026-02-16 17:56:30] [INFO] [SSH] [172.17.0.2] Command: cat bashrc
+[2026-02-16 17:56:32] [INFO] [SSH] [172.17.0.2] Command: clear
+[2026-02-16 17:56:32] [INFO] [SSH] [172.17.0.2] Command: ls
+[2026-02-16 17:56:33] [INFO] [SSH] [172.17.0.2] Command: cd ..
+[2026-02-16 17:56:34] [INFO] [SSH] [172.17.0.2] Command: ls
+[2026-02-16 17:56:34] [INFO] [SSH] [172.17.0.2] Command: exit
+[2026-02-16 17:56:34] [INFO] [SSH] [172.17.0.2] Session closed
+[2026-02-16 17:56:57] [INFO] [FTP] [172.17.0.2] New connection from port 52174
+[2026-02-16 17:56:57] [INFO] [FTP] [172.17.0.2] Command: USER bitter
+[2026-02-16 17:57:01] [INFO] [FTP] [172.17.0.2] Command: PASS bitterthehacker
+[2026-02-16 17:57:01] [WARNING] [FTP] [172.17.0.2] Login attempt - User: bitter, Pass: bitterthehacker
+[2026-02-16 17:57:01] [WARNING] [FTP] [172.17.0.2] User 'bitter' logged in (FAKE)
+[2026-02-16 17:57:01] [INFO] [FTP] [172.17.0.2] Command: SYST
+[2026-02-16 17:57:01] [INFO] [FTP] [172.17.0.2] Command: FEAT
+[2026-02-16 17:57:09] [INFO] [FTP] [172.17.0.2] Command: EPSV
+[2026-02-16 17:57:09] [INFO] [FTP] [172.17.0.2] Command: LIST
+[2026-02-16 17:57:09] [INFO] [FTP] [172.17.0.2] Data connection from 172.17.0.2:45778
+[2026-02-16 17:57:14] [INFO] [FTP] [172.17.0.2] Command: EPSV
+[2026-02-16 17:57:14] [INFO] [FTP] [172.17.0.2] Command: LIST al
+[2026-02-16 17:57:14] [INFO] [FTP] [172.17.0.2] Data connection from 172.17.0.2:45790
+[2026-02-16 17:58:07] [INFO] [FTP] [172.17.0.2] Command: QUIT
+[2026-02-16 17:58:07] [INFO] [FTP] [172.17.0.2] Session closed
+[2026-02-16 17:58:34] [CRITICAL] [SMB] [172.17.0.2] SMB connection from port 56564
+[2026-02-16 17:58:34] [INFO] [SMB] [172.17.0.2] SMBv1 command: 0x72
+[2026-02-16 17:58:34] [WARNING] [SMB] [172.17.0.2] SMBv1 NEGOTIATE - checking for SMB2 dialect
+[2026-02-16 17:58:34] [INFO] [SMB] [172.17.0.2] Client supports SMB2, sending SMB2 negotiate response
+[2026-02-16 17:58:34] [INFO] [SMB] [172.17.0.2] SMB2 command: 0x0001
+[2026-02-16 17:58:34] [CRITICAL] [SMB] [172.17.0.2] SMB2 SESSION_SETUP - Auth attempt!
+[2026-02-16 17:58:34] [INFO] [SMB] [172.17.0.2] NTLM Type 1 - Sending challenge
+[2026-02-16 17:58:34] [INFO] [SMB] [172.17.0.2] Challenge response: 333 bytes, status: 160000c0
+[2026-02-16 17:58:36] [INFO] [SMB] [172.17.0.2] SMB2 command: 0x0001
+[2026-02-16 17:58:36] [CRITICAL] [SMB] [172.17.0.2] SMB2 SESSION_SETUP - Auth attempt!
+[2026-02-16 17:58:36] [CRITICAL] [SMB] [172.17.0.2] NTLM Type 3 - Extracting credentials!
+[2026-02-16 17:58:36] [CRITICAL] [SMB] [172.17.0.2] NTLM Type 3 (Auth) - Extracting creds
+[2026-02-16 17:58:36] [CRITICAL] [SMB] [172.17.0.2] NTLM: WORKGROUP\root@F564197E2581
+[2026-02-16 17:58:36] [INFO] [SMB] [172.17.0.2] Session response: 99 bytes, status: 00000000
+[2026-02-16 17:58:36] [INFO] [SMB] [172.17.0.2] SMB2 command: 0x0003
+[2026-02-16 17:58:36] [CRITICAL] [SMB] [172.17.0.2] SMB2 TREE_CONNECT - Share access
+[2026-02-16 17:58:36] [CRITICAL] [SMB] [172.17.0.2] Requested share: \\192.168.1.93\IPC$
+[2026-02-16 17:58:36] [INFO] [SMB] [172.17.0.2] Tree connect response: 84 bytes, status: 00000000
+[2026-02-16 17:58:36] [INFO] [SMB] [172.17.0.2] SMB2 command: 0x0005
+[2026-02-16 17:58:36] [CRITICAL] [SMB] [172.17.0.2] SMB2 CREATE - File/pipe access
+[2026-02-16 17:58:36] [INFO] [SMB] [172.17.0.2] SMB2 command: 0x000b
+[2026-02-16 17:58:36] [CRITICAL] [SMB] [172.17.0.2] SMB2 IOCTL - Share enumeration attempt
+[2026-02-16 17:58:36] [INFO] [SMB] [172.17.0.2] SMB2 command: 0x000b
+[2026-02-16 17:58:36] [CRITICAL] [SMB] [172.17.0.2] SMB2 IOCTL - Share enumeration attempt
+[2026-02-16 17:58:36] [INFO] [SMB] [172.17.0.2] SMB2 command: 0x0006
+[2026-02-16 17:58:36] [INFO] [SMB] [172.17.0.2] SMB2 CLOSE
+[2026-02-16 17:58:36] [INFO] [SMB] [172.17.0.2] SMB2 command: 0x0004
+[2026-02-16 17:58:36] [INFO] [SMB] [172.17.0.2] SMB2 TREE_DISCONNECT
+[2026-02-16 17:58:36] [INFO] [SMB] [172.17.0.2] Client closed connection (recv header empty)
+[2026-02-16 17:58:36] [INFO] [SMB] [172.17.0.2] Session closed
+[2026-02-16 17:58:46] [CRITICAL] [SMB] [172.17.0.2] SMB connection from port 44344
+[2026-02-16 17:58:46] [INFO] [SMB] [172.17.0.2] SMBv1 command: 0x72
+[2026-02-16 17:58:46] [WARNING] [SMB] [172.17.0.2] SMBv1 NEGOTIATE - checking for SMB2 dialect
+[2026-02-16 17:58:46] [INFO] [SMB] [172.17.0.2] Client supports SMB2, sending SMB2 negotiate response
+[2026-02-16 17:58:46] [INFO] [SMB] [172.17.0.2] SMB2 command: 0x0001
+[2026-02-16 17:58:46] [CRITICAL] [SMB] [172.17.0.2] SMB2 SESSION_SETUP - Auth attempt!
+[2026-02-16 17:58:46] [INFO] [SMB] [172.17.0.2] NTLM Type 1 - Sending challenge
+[2026-02-16 17:58:46] [INFO] [SMB] [172.17.0.2] Challenge response: 333 bytes, status: 160000c0
+[2026-02-16 17:58:46] [INFO] [SMB] [172.17.0.2] SMB2 command: 0x0001
+[2026-02-16 17:58:46] [CRITICAL] [SMB] [172.17.0.2] SMB2 SESSION_SETUP - Auth attempt!
+[2026-02-16 17:58:46] [CRITICAL] [SMB] [172.17.0.2] NTLM Type 3 - Extracting credentials!
+[2026-02-16 17:58:46] [CRITICAL] [SMB] [172.17.0.2] NTLM Type 3 (Auth) - Extracting creds
+[2026-02-16 17:58:46] [CRITICAL] [SMB] [172.17.0.2] NTLM: WORKGROUP\root@F564197E2581
+[2026-02-16 17:58:46] [INFO] [SMB] [172.17.0.2] Session response: 99 bytes, status: 00000000
+[2026-02-16 17:58:46] [INFO] [SMB] [172.17.0.2] SMB2 command: 0x0003
+[2026-02-16 17:58:46] [CRITICAL] [SMB] [172.17.0.2] SMB2 TREE_CONNECT - Share access
+[2026-02-16 17:58:46] [CRITICAL] [SMB] [172.17.0.2] Requested share: \\192.168.1.93\IPC$
+[2026-02-16 17:58:46] [INFO] [SMB] [172.17.0.2] Tree connect response: 84 bytes, status: 00000000
+[2026-02-16 17:58:46] [INFO] [SMB] [172.17.0.2] SMB2 command: 0x0005
+[2026-02-16 17:58:46] [CRITICAL] [SMB] [172.17.0.2] SMB2 CREATE - File/pipe access
+[2026-02-16 17:58:46] [INFO] [SMB] [172.17.0.2] SMB2 command: 0x000b
+[2026-02-16 17:58:46] [CRITICAL] [SMB] [172.17.0.2] SMB2 IOCTL - Share enumeration attempt
+[2026-02-16 17:58:46] [INFO] [SMB] [172.17.0.2] SMB2 command: 0x000b
+[2026-02-16 17:58:46] [CRITICAL] [SMB] [172.17.0.2] SMB2 IOCTL - Share enumeration attempt
+[2026-02-16 17:58:46] [INFO] [SMB] [172.17.0.2] SMB2 command: 0x0006
+[2026-02-16 17:58:46] [INFO] [SMB] [172.17.0.2] SMB2 CLOSE
+[2026-02-16 17:58:46] [INFO] [SMB] [172.17.0.2] SMB2 command: 0x0004
+[2026-02-16 17:58:46] [INFO] [SMB] [172.17.0.2] SMB2 TREE_DISCONNECT
+[2026-02-16 17:58:46] [INFO] [SMB] [172.17.0.2] Client closed connection (recv header empty)
+[2026-02-16 17:58:46] [INFO] [SMB] [172.17.0.2] Session closed
+[2026-02-16 17:59:02] [CRITICAL] [SMB] [172.17.0.2] SMB connection from port 59710
+[2026-02-16 17:59:02] [INFO] [SMB] [172.17.0.2] SMBv1 command: 0x72
+[2026-02-16 17:59:02] [WARNING] [SMB] [172.17.0.2] SMBv1 NEGOTIATE - checking for SMB2 dialect
+[2026-02-16 17:59:02] [INFO] [SMB] [172.17.0.2] Client supports SMB2, sending SMB2 negotiate response
+[2026-02-16 17:59:02] [INFO] [SMB] [172.17.0.2] SMB2 command: 0x0001
+[2026-02-16 17:59:02] [CRITICAL] [SMB] [172.17.0.2] SMB2 SESSION_SETUP - Auth attempt!
+[2026-02-16 17:59:02] [INFO] [SMB] [172.17.0.2] NTLM Type 1 - Sending challenge
+[2026-02-16 17:59:02] [INFO] [SMB] [172.17.0.2] Challenge response: 333 bytes, status: 160000c0
+[2026-02-16 17:59:02] [INFO] [SMB] [172.17.0.2] SMB2 command: 0x0001
+[2026-02-16 17:59:02] [CRITICAL] [SMB] [172.17.0.2] SMB2 SESSION_SETUP - Auth attempt!
+[2026-02-16 17:59:02] [CRITICAL] [SMB] [172.17.0.2] NTLM Type 3 - Extracting credentials!
+[2026-02-16 17:59:02] [CRITICAL] [SMB] [172.17.0.2] NTLM Type 3 (Auth) - Extracting creds
+[2026-02-16 17:59:02] [CRITICAL] [SMB] [172.17.0.2] NTLM: WORKGROUP\root@F564197E2581
+[2026-02-16 17:59:02] [INFO] [SMB] [172.17.0.2] Session response: 99 bytes, status: 00000000
+[2026-02-16 17:59:02] [INFO] [SMB] [172.17.0.2] SMB2 command: 0x0003
+[2026-02-16 17:59:02] [CRITICAL] [SMB] [172.17.0.2] SMB2 TREE_CONNECT - Share access
+[2026-02-16 17:59:02] [CRITICAL] [SMB] [172.17.0.2] Requested share: \\192.168.1.93\IPC$
+[2026-02-16 17:59:02] [INFO] [SMB] [172.17.0.2] Tree connect response: 84 bytes, status: 00000000
+[2026-02-16 17:59:02] [INFO] [SMB] [172.17.0.2] SMB2 command: 0x0005
+[2026-02-16 17:59:02] [CRITICAL] [SMB] [172.17.0.2] SMB2 CREATE - File/pipe access
+[2026-02-16 17:59:02] [INFO] [SMB] [172.17.0.2] SMB2 command: 0x000b
+[2026-02-16 17:59:02] [CRITICAL] [SMB] [172.17.0.2] SMB2 IOCTL - Share enumeration attempt
+[2026-02-16 17:59:02] [INFO] [SMB] [172.17.0.2] SMB2 command: 0x000b
+[2026-02-16 17:59:02] [CRITICAL] [SMB] [172.17.0.2] SMB2 IOCTL - Share enumeration attempt
+[2026-02-16 17:59:02] [INFO] [SMB] [172.17.0.2] SMB2 command: 0x0006
+[2026-02-16 17:59:02] [INFO] [SMB] [172.17.0.2] SMB2 CLOSE
+[2026-02-16 17:59:02] [INFO] [SMB] [172.17.0.2] SMB2 command: 0x0004
+[2026-02-16 17:59:02] [INFO] [SMB] [172.17.0.2] SMB2 TREE_DISCONNECT
+[2026-02-16 17:59:02] [INFO] [SMB] [172.17.0.2] Client closed connection (recv header empty)
+[2026-02-16 17:59:02] [INFO] [SMB] [172.17.0.2] Session closed
+[2026-02-16 18:00:01] [INFO] [Telnet] [172.17.0.2] New connection from port 44424
+[2026-02-16 18:00:15] [WARNING] [Telnet] [172.17.0.2] Login attempt - User: aaaaaa, Pass: aaaaa
+[2026-02-16 18:00:16] [WARNING] [Telnet] [172.17.0.2] User 'aaaaaa' logged in successfully (FAKE)
+[2026-02-16 18:00:18] [INFO] [Telnet] [172.17.0.2] Command: ls
+[2026-02-16 18:00:30] [INFO] [Telnet] [172.17.0.2] Command: cat notes.txt
+[2026-02-16 18:00:30] [WARNING] [Telnet] [172.17.0.2] Attacker accessed sensitive file: /home/admin/notes.txt
+[2026-02-16 18:01:21] [INFO] [System] [localhost] 🛑 Honey Trap shutdown initiated

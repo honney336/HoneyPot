@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-FakeShell Command Handler for Honey Trap Honeypot
+FakeShell Command Handler for Honeypot
 Simulates a Linux bash shell with full command support.
 """
 

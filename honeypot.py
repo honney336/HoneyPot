@@ -118,7 +118,7 @@ def send_discord_alert(title: str, description: str, color: int, fields: List[Di
     """Send rich embed alert to Discord webhook."""
     try:
         embed = {
-            "title": f"🍯 Honey Trap Alert: {title}",
+            "title": f"🍯 Honey POT Alert: {title}",
             "description": description,
             "color": color,
             "timestamp": datetime.datetime.now(datetime.timezone.utc).isoformat(),
@@ -2862,7 +2862,7 @@ def start_listener(port: int, handler, service_name: str):
 # ============================================================================
 
 class HoneypotGUI:
-    """Beautiful modern UI for Honey Trap honeypot."""
+    """Beautiful modern UI for Honey POT honeypot."""
     
     # Vibrant cyberpunk color scheme
     COLORS = {
@@ -2889,7 +2889,7 @@ class HoneypotGUI:
     
     def __init__(self):
         self.root = ttk.Window(themename="cyborg")
-        self.root.title("Honey Trap - Blue Team Honeypot Command Center")
+        self.root.title("Honey POT - Blue Team Honeypot Command Center")
         self.root.geometry("1600x950")
         self.root.minsize(1400, 800)
         
@@ -2954,7 +2954,7 @@ class HoneypotGUI:
         logo_canvas.create_oval(5, 5, 85, 85, fill="#2a1f00", outline=self.COLORS["accent_orange"], width=2)
         logo_canvas.create_text(45, 45, text="🍯", font=("Segoe UI Emoji", 38))
         
-        title_label = tk.Label(logo_frame, text="HONEY TRAP",
+        title_label = tk.Label(logo_frame, text="HONEY POT",
                                font=("Segoe UI", 20, "bold"),
                                fg=self.COLORS["accent_orange"],
                                bg=self.COLORS["bg_sidebar"])
@@ -3749,7 +3749,7 @@ class HoneypotGUI:
             t = threading.Thread(target=start_listener, args=(port, handler, name), daemon=True)
             t.start()
         
-        log_event("INFO", "System", "localhost", "🍯 Honey Trap initialized - All services started")
+        log_event("INFO", "System", "localhost", "🍯 Honey POT initialized - All services started")
     
     def update_loop(self):
         """Update the UI with new events."""
@@ -4053,9 +4053,9 @@ class HoneypotGUI:
         """Shutdown the honeypot gracefully."""
         from tkinter import messagebox
         if messagebox.askyesno("Confirm Shutdown",
-                              "⚠️ Are you sure you want to shutdown Honey Trap?\n\n"
+                              "⚠️ Are you sure you want to shutdown Honey POT?\n\n"
                               "All active sessions will be terminated."):
-            log_event("INFO", "System", "localhost", "🛑 Honey Trap shutdown initiated")
+            log_event("INFO", "System", "localhost", "🛑 Honey POT shutdown initiated")
             state.running = False
             
             for sock in state.listeners:
@@ -4080,7 +4080,7 @@ class HoneypotGUI:
 def main():
     print("""
     ╔═══════════════════════════════════════════════════════════════╗
-    ║                    🍯 HONEY TRAP                              ║
+    ║                    🍯 HONEY POT                              ║
     ║           Production-Grade Blue Team Honeypot                 ║
     ║                                                               ║
     ║  Services Starting:                                           ║

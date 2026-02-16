@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Export Module for Honey Trap Honeypot
+Export Module for Honeypot
 Handles export to XML/XSLT and JSON formats.
 """
 
@@ -15,7 +15,7 @@ XSLT_CONTENT = '''<?xml version="1.0" encoding="UTF-8"?>
 <xsl:template match="/">
 <html>
 <head>
-    <title>Honey Trap Security Audit Report</title>
+    <title>Honey POT Security Audit Report</title>
     <style>
         body { font-family: 'Segoe UI', Tahoma, sans-serif; background: #1a1a2e; color: #eee; padding: 20px; }
         h1 { color: #ffd700; border-bottom: 2px solid #ffd700; padding-bottom: 10px; }
@@ -38,7 +38,7 @@ XSLT_CONTENT = '''<?xml version="1.0" encoding="UTF-8"?>
     </style>
 </head>
 <body>
-    <h1>🍯 Honey Trap Security Audit Report</h1>
+    <h1>🍯 Honey POT Security Audit Report</h1>
     <p class="header-info">Generated: <xsl:value-of select="/HoneypotReport/@generated"/> | Hostname: <xsl:value-of select="/HoneypotReport/@hostname"/></p>
     
     <div class="summary">
@@ -195,7 +195,7 @@ def export_to_json(filename: str, config: dict, state) -> str:
         "meta": {
             "generated": datetime.datetime.now().isoformat(),
             "hostname": config["HOSTNAME"],
-            "report_type": "Honey Trap Security Audit"
+            "report_type": "Honey POT Security Audit"
         },
         "summary": {
             "total_events": len(state.events),
