@@ -159,7 +159,20 @@ class FakeShell:
             self.log_event("CRITICAL", self.service, self.addr[0],
                           f"Privilege escalation! User '{self.username}' elevated to root")
             
-            # Execute the command as root
+            # If sudo su (any target), simulate shell switch
+            if command.strip().startswith("sudo su"):
+                # Extract target user if present
+                parts = command.strip().split()
+                if len(parts) >= 3:
+                    target = parts[2]
+                    self.username = target
+                    self.cwd = f"/home/{target}" if target != "root" else "/root"
+                    self.log_event("INFO", self.service, self.addr[0], f"sudo su to {target} (FAKE) - shell switched")
+                    return f"Switched to user {self.username}\r\n{self.get_prompt()}"
+                else:
+                    self.username = "root"
+                    self.cwd = "/root"
+                    return f"Switched to user root\r\n{self.get_prompt()}"
             actual_cmd = command[5:].strip() if command.startswith("sudo ") else command
             return self.execute_command(actual_cmd)
         
@@ -505,6 +518,12 @@ tcp        0      0 192.168.1.100:22        """ + f"{self.addr[0]}:{self.addr[1]
                               f"su to root successful (FAKE) - captured password")
                 self.discord_sudo_alert(self.addr[0], target, password, "su root")
             return ""
+        # If target is not root, simulate shell switch
+        if target != "root":
+            self.username = target
+            self.cwd = f"/home/{target}"
+            self.log_event("INFO", self.service, self.addr[0], f"su to {target} (FAKE) - shell switched")
+            return f"Switched to user {target}\r\n"
         return "su: Authentication failure\r\n"
     
     def cmd_history(self) -> str:
@@ -624,8 +643,10 @@ def execute_shell_command(cmd: str, cwd: str, is_root: bool, username: str,
                     elif full_path in VIRTUAL_FS:
                         is_file = False
                     elif "." in item and not item.startswith("."):
+                        # Has extension, likely a file
                         is_file = True
                         size = "1024"
+                    # else: no extension, no content - assume directory
                     
                     perms = "-rw-r--r--" if is_file else "drwxr-xr-x"
                     output += f"{perms}  1 root root {size:>5} Jan 15 10:30 {item}\r\n"
