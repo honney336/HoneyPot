@@ -4080,7 +4080,7 @@ class HoneypotGUI:
 def main():
     print("""
     ╔═══════════════════════════════════════════════════════════════╗
-    ║                    🍯 HONEY POT                              ║
+    ║                   🍯 HONEY POT                                ║
     ║           Production-Grade Blue Team Honeypot                 ║
     ║                                                               ║
     ║  Services Starting:                                           ║
